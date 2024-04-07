@@ -18,10 +18,6 @@
 
 // alert(kredit(1000, 3));
 
-
-
-
-
 // ==================TEKRAR ELEMENT MESELSI
 
 // let arr = [1, 2, 3, 4, 4, 2];
@@ -46,8 +42,23 @@
 
 // alert(dublicate(arr));
 
+// ======================== metod ile daha asan imis=================
+// let arr = [1, 2, 3, 4, 4, 2];
 
+// function double(array) {
+//   let tekrar = [];
+//   let dublikat = [];
+//   for (let i = 0; i < array.length; i++) {
+//     if (tekrar.includes(array[i])) {
+//       dublikat.push(array[i]);
+//     } else {
+//       tekrar.push(array[i]);
+//     }
+//   }
+//   return dublikat;
+// }
 
+// alert(double(arr));
 
 
 
@@ -57,3 +68,4 @@
 //     return (faran-32)*(5/9)
 // }
 // alert(celsi(172))
+
